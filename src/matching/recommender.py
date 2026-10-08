@@ -43,6 +43,13 @@ FINANCE_PROFESSIONS = {
     "Accountant"
 }
 
+DESIGN_PROFESSIONS = {
+    "UI/UX Designer",
+    "Graphic Designer",
+    "Content Writer",
+    "Marketing Specialist"
+}
+
 CAREER_GROUPS = {
     "AI Research": "AI",
     "Data Analytics": "AI",
@@ -55,7 +62,11 @@ CAREER_GROUPS = {
 
     "Financial Growth": "FINANCE",
 
-    "Healthcare Innovation": "HEALTHCARE"
+    "Healthcare Innovation": "HEALTHCARE",
+
+    "Design Leadership": "DESIGN",
+
+    "Startup Founder": "BUSINESS",
 }
 
 class Recommender:
@@ -123,6 +134,7 @@ class Recommender:
             BUSINESS_PROFESSIONS,
             FINANCE_PROFESSIONS,
             HEALTHCARE_PROFESSIONS,
+            DESIGN_PROFESSIONS,
         ]
         for group in groups:
             if(

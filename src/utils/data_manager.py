@@ -41,28 +41,39 @@ MBTI_OPTIONS = [
 
 NETWORKING_INTENT_OPTIONS = [
     "Find Mentor",
-    "Become Mentor",
+    "Find Mentee",
     "Research Collaboration",
     "Startup Partner",
     "Knowledge Sharing",
     "Career Growth",
+    "Professional Networking",
+    "Team Building",
 ]
 
 PROFESSION_OPTIONS = [
-    "Software Engineer",
-    "Full Stack Developer",
+    "Data Scientist",
+    "ML Engineer",
+    "AI Engineer",
     "Backend Developer",
     "Frontend Developer",
-    "Data Scientist",
-    "AI Engineer",
-    "Machine Learning Engineer",
+    "Full Stack Developer",
+    "DevOps Engineer",
     "Cloud Engineer",
-    "Healthcare Analyst",
+    "Cybersecurity Analyst",
+    "Business Analyst",
+    "Product Manager",
+    "Project Manager",
+    "Consultant",
+    "Financial Analyst",
+    "Investment Advisor",
+    "Accountant",
     "Doctor",
     "Nurse",
-    "Product Manager",
-    "Designer",
-    "Researcher",
+    "Healthcare Analyst",
+    "UI/UX Designer",
+    "Graphic Designer",
+    "Content Writer",
+    "Marketing Specialist",
 ]
 
 CAREER_GOAL_OPTIONS = [
@@ -72,8 +83,10 @@ CAREER_GOAL_OPTIONS = [
     "Cloud Computing",
     "Data Analytics",
     "Healthcare Innovation",
-    "Career Growth",
+    "Financial Growth",
+    "Cybersecurity",
     "Design Leadership",
+    "Product Management",
 ]
 
 import bcrypt
